@@ -24,6 +24,19 @@
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
       <% } else { %>
+        <% if (!index){ %>
+          <% if (toc(post.content)){ %>            
+            <div id="toc" class="article-toc">
+            <h2>目录</h2>
+              <%- toc(post.content) %>  
+            </div>
+            <script type="text/javascript">
+              var _article = document.getElementsByClassName('article')[0];
+              setTimeout("_article.className += ' article2'",0);
+              setTimeout("document.getElementById('toc').style.right = '15px'", 0);                
+            </script>
+          <% } %>
+        <% } %>
         <%- post.content %>
       <% } %>
     </div>

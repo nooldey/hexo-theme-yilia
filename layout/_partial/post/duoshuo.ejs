@@ -1,4 +1,8 @@
-<div class="duoshuo">
+<% if (toc(post.content)){ %>
+	<div class="duoshuo article article2">
+<% } else { %>
+	<div class="duoshuo article">
+<% } %>
 	<!-- 多说评论框 start -->
 	<div class="ds-thread" data-thread-key="<%=key%>" data-title="<%=title%>" data-url="<%=url%>"></div>
 	<!-- 多说评论框 end -->
