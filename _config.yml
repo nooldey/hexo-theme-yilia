@@ -3,6 +3,7 @@ menu:
   主页: /
   所有文章: /archives
   友情链接: /links
+  ToMyLove: /love
 
 # SubNav
 subnav:
@@ -11,7 +12,7 @@ subnav:
   #rss: "#"
   #zhihu: "#"
   #douban: "#"
-  mail: "#"
+  mail: "mailto:openzws@163.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
