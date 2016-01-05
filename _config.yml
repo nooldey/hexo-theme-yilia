@@ -29,7 +29,7 @@ mathjax: true
 animate: true
 
 # 是否在新窗口打开链接
-open_in_new: true
+open_in_new: false
 
 # Miscellaneous 填写统计特征码如id即可
 google_analytics: ''
