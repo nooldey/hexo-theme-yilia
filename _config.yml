@@ -35,7 +35,7 @@ baidu_analytics: ''
 favicon: /favicon.ico
 
 #你的头像url
-#avatar: 
+avatar: http://gravatar.duoshuo.com/avatar/f346d356767f26fdfc04414980cc4eb4?s=256&amp;r=g
 #是否开启分享
 share_jia: false
 share_addthis: false
@@ -50,7 +50,10 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-    碎碎念: http://zhuweisheng.com.cn/
+    设计笔记: https://www.idevs.cn/
+    免费资源部落: http://www.freehao123.com/
+    氪星人: http://defcon.cn/
+    ZWW: http://uiv5.com/
 
 #是否开启“关于我”。
 #不开启——
