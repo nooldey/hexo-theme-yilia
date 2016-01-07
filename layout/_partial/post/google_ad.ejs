@@ -1,4 +1,8 @@
-<div class="Google-Ad">
+<% if (toc(post.content)){ %>
+	<div class="Google-Ad article article2">
+<% } else { %>
+	<div class="Google-Ad article">
+<% } %>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- 横幅（内页） -->
 <ins class="adsbygoogle"
