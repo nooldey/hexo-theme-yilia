@@ -33,7 +33,7 @@ open_in_new: false
 
 # Miscellaneous 填写统计特征码如id即可
 google_analytics: ''
-baidu_analytics: ''
+baidu_analytics: '7c1c6841aeba207e5d2a25b1b79d9321'
 favicon: /favicon.ico
 
 #你的头像url
