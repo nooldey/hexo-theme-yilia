@@ -38,6 +38,9 @@
           <% } %>
         <% } %>
         <%- post.content %>
+        <% if (!index && theme.google_ad){ %>
+          <%- partial('post/google_ad') %>
+        <% } %>
       <% } %>
     </div>
     <% if (index){ %>
@@ -65,10 +68,6 @@
 
 <% if (!index && theme.share_jia){ %>
 <%- partial('post/share_jia') %>
-<% } %>
-
-<% if (!index && theme.google_ad){ %>
-<%- partial('post/google_ad') %>
 <% } %>
 
 <% if (!index && theme.duoshuo && post.comments){ %>
