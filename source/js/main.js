@@ -108,3 +108,7 @@ require([], function (){
 	}
 	
 });
+function google(){
+ $(".Google-Ad").load("//zwsssn.u.qiniudn.com/ads.html",function(){$(".Google-Ad").fadeIn(100);}
+ );
+}
