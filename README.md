@@ -8,6 +8,23 @@
 * 增加了部分个人定制CSS，可在style文件中剔除  
 * 修改了toc的样式，文章正文标题前自动追加红色醒目的`#`标志————已提交给原作并更新到原作上了。
 * 头像旋转动态效果追加到720度，也就是旋转2圈（然并卵，并没有什么用）
+* 多说评论框匹配样式 `.duoshuo{
+padding:30px;
+}
+#ds-thread #ds-reset a.ds-like-thread-button {
+    color: #777777;
+    padding: 4px 8px;
+    border: 0;
+    box-shadow: 0px 1px 1px #555;
+    text-shadow: 0 1px 0 #fff;
+    background-color: #ECECEC;
+    background-repeat: no-repeat;
+    background-image: none;
+}
+.ds-powered-by｛
+display:none!important;
+visibility: hidden;
+}`
 
 ================
 **hexo-theme-yilia by litten**
