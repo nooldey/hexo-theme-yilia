@@ -16,5 +16,5 @@ branches:
     - master
 env:
  global:
-   - GH_REF: github.com/iissnan/theme-next-docs.git
+   - GH_REF: github.com/nooldey/hexo-theme-yilia.git
    - secure: "R75fHiOdeFav2dkc3iMmCyyPe558c8YuR/c+xlTUhH8zruTPY7fI/Ajwnq4QCuLPjam+Utm2WdrRW1VnG7DiPEZYcxjvKyC/OHzhJJz3OfMkrhDLe0NVMKX8P5sI/6kmR3WZksu8X4nF4DGQNdM+BAX35YaFYeE3UlrIYyyoIkGjGZHlBV/7mtiA5ea080aktaFeb9LNMrBrB1JP1i6uCQSc1u96Aj+tFUSWnzZBtDBpgH5zqCl1jW0JyrQ39Ok3vHDW53pmxwJFSGPcm5oiZHmxvJqc94HXTW/qkV4iVtsRdYqx5LAoU/PABaf6lAqoKkl4P2T4k1MoiyOljbz/la76SvPfUkzM11LmB8liLv6a5/6+nA/DFTAkZO2e1X8nQnDcM3DEvly+X/2pUad3RGsbhcrgX0j9iW4NvLpnJA6CF6dvl7Lmt/PwdSyovaOQcg/c36zdizKZVa/vXjeyDnApDdyZGeYN5iAYFm62M0iLx4d3a6kr6fV4Pgjd2ZQ9MAEdTCvJg8dvJTzZryEXwMx1YaZTS0pQLYOngMuJOCxdZl7eQg30+irOL999qcazRHB9zGiqwHRw+d87TVqnXwTLod1Qx0rxacKbnUUsc/ZlG2PFtZ/UDWIFa2O23FKwoT4x/nS4AOQbAWPNt3cQu+TH3niJMMZi63kb3H5RNxg="
